@@ -30,7 +30,7 @@ Ansible operates on an agentless architecture, relying on a central control node
 This architecture simplifies deployment, reduces overhead, and ensures consistency across environments.
 
 ### Ansible Architecture Diagram
-![Ansible Architecture!](t1.PNG")
+![Ansible Architecture!](t1.PNG)
 
 ## Ansible Configuration Models:
 
@@ -39,9 +39,9 @@ Ansible offers flexibility with both pull and push models. We must evaluate our 
 2. **Pull Configuration Model (Ansible Pull)**: Alternatively, Ansible supports a pull model known as Ansible Pull. In this configuration, each managed node retrieves its configurations from a centralized source, typically a version control system or a configuration management server. Managed nodes use cron jobs or scheduled tasks to periodically pull configuration changes and apply them locally. This model is advantageous in environments where managed nodes have restricted inbound network access or when nodes need to self-manage configuration updates independently.
 
 ### Ansible Configuration Models Diagrams
-![Ansible Configuration Models!](t2.PNG")
+![Ansible Configuration Models!](t2.PNG)
 
-![Ansible Configuration Models!](t3.PNG")
+![Ansible Configuration Models!](t3.PNG)
 
 
 

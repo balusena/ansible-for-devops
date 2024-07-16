@@ -30,7 +30,7 @@ Ansible operates on an agentless architecture, relying on a central control node
 This architecture simplifies deployment, reduces overhead, and ensures consistency across environments.
 
 ### Ansible Architecture Diagram
-![Ansible Architecture](t1.png)
+![Ansible Architecture](ansible-for-devops/Introduction%20to%20Ansible%20and%20Getting%20Started/t1.png)
 
 ## Ansible Configuration Models:
 

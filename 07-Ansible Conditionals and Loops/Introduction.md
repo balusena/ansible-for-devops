@@ -159,7 +159,7 @@ In above playbook:
 
 - Packages are installed on Debian-based systems only.
 - Multiple users are added based on the provided list.
-- 
+
 By using conditionals and loops effectively, you can make your Ansible playbooks more dynamic and powerful,
 allowing for complex automation scenarios.
 

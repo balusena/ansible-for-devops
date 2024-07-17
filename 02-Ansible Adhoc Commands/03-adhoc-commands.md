@@ -23,21 +23,21 @@ pattern: Specifies which hosts to target.
 
 - Adhoc commands are useful for quick system management tasks.
 
-# 1. Rebooting a Host
+### 1. Rebooting a Host
 - Reboot all hosts:
 
 ```
 ansible all -m reboot -i inventory.ini
 ```
 
-# 2. Checking Disk Usage
+### 2. Checking Disk Usage
 - Check disk usage:
 
 ```
 ansible all -m shell -a 'df -h' -i inventory.ini
 ```
 
-# 3. Managing Services
+### 3. Managing Services
 
 - Starting a Service
 - Start httpd service:
@@ -46,35 +46,35 @@ ansible all -m shell -a 'df -h' -i inventory.ini
 ansible all -m service -a 'name=httpd state=started' -i inventory.ini
 ```
 
-# 4. Stopping a Service
+### 4. Stopping a Service
 - Stop httpd service:
 
 ```
 ansible all -m service -a 'name=httpd state=stopped' -i inventory.ini
 ```
 
-# 5. Installing Packages
+### 5. Installing Packages
 - Install vim package:
 
 ```
 ansible all -m yum -a 'name=vim state=present' -i inventory.ini
 ```
 
-# 6. Copying Files
+### 6. Copying Files
 - Copy a file from local to remote:
 
 ```
 ansible all -m copy -a 'src=/path/to/local/file dest=/path/to/remote/file' -i inventory.ini
 ```
 
-# 7. User Management
+### 7. User Management
 - Create a new user:
 
 ```
 ansible all -m user -a 'name=ansible state=present' -i inventory.ini
 ```
 
-# 8. Checking Uptime
+### 8. Checking Uptime
 - Check uptime:
 
 ```

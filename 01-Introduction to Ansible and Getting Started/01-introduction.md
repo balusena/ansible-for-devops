@@ -46,6 +46,3 @@ Ansible offers flexibility with both pull and push models. We must evaluate our 
 
 
 
-
-
-

@@ -1,6 +1,8 @@
 
 # Ansible variables and Precendence
 
+## variables
+
 In Ansible, variables are a key feature for parameterizing playbooks and roles, allowing for flexible and 
 reusable automation scripts. Ansible variables can be defined in multiple places, and their precedence 
 determines which value is used when there are conflicts. Here's a summary of Ansible variables and their 
@@ -15,7 +17,7 @@ precedence:
 - Role Variables: Defined within a role.
 - Extra Variables: Passed at the command line using -e or --extra-vars.
 
-# Variable Precedence
+## Variable Precedence
 
 Ansible has a specific order of precedence for variables. Here’s the precedence order from lowest to highest 
 (1 is the lowest, 17 is the highest):

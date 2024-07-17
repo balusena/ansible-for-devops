@@ -48,21 +48,21 @@ Ansible has a specific order of precedence for variables. Here’s the precedenc
 Consider a scenario where you have the same variable my_var defined in multiple places. The value used will 
 be determined by the above precedence order.
 
-### 1.Role defaults (roles/my_role/defaults/main.yml):
+### 1. Role defaults (roles/my_role/defaults/main.yml):
 ```
 my_var: "default_value"
 ```
-### 2.Inventory group_vars (inventory/group_vars/all.yml):
+### 2. Inventory group_vars (inventory/group_vars/all.yml):
 ```
 my_var: "group_var_value"
 ```
-### 3.Playbook variable (playbook.yml):
+### 3. Playbook variable (playbook.yml):
 ```
 - hosts: all
   vars:
     my_var: "playbook_value"
 ```
-### 4.Extra vars (command line):
+### 4. Extra vars (command line):
 ```
 ansible-playbook playbook.yml -e my_var="extra_var_value"
 ```

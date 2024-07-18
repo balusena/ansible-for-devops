@@ -3,29 +3,29 @@ Policy as Code (PaC) is an approach to managing and enforcing policies within an
 
 ## Key Concepts and Benefits of Policy as Code
 
-- 1. Definition of Policies in Code:
+### 1. Definition of Policies in Code:
 
 - Policies are written using high-level programming or domain-specific languages (DSLs) that specify rules and configurations for resources and behaviors within the infrastructure.
 
-- 2. Version Control:
+### 2. Version Control:
 
 - Policies are stored in version control systems (e.g., Git), enabling versioning, history tracking, and collaboration among team members.
 
-- 3. Automation and Integration:
+### 3. Automation and Integration:
 
 - Policies can be integrated into automated workflows, such as CI/CD pipelines, ensuring that policy compliance checks are part of the development and deployment process.
 - This automation reduces manual intervention and helps in maintaining consistency across environments.
 
-- 4. Compliance and Governance:
+### 4. Compliance and Governance:
 
 - PaC helps ensure that infrastructure and application configurations comply with organizational, legal, and regulatory requirements.
 - By automating compliance checks, organizations can quickly identify and remediate policy violations.
 
-- 5. Scalability and Consistency:
+### 5. Scalability and Consistency:
 
 - Policies are consistently applied across multiple environments (development, testing, production), reducing the risk of configuration drift and ensuring uniform policy enforcement.
 
-- 6. Transparency and Audibility:
+### 6. Transparency and Audibility:
 
 - Changes to policies are transparent and auditable since all modifications are tracked in version control systems.
 - This enhances accountability and provides a clear trail for auditing purposes.

@@ -71,17 +71,18 @@ Policy as Code (PaC) is an approach to managing and enforcing policies within an
 
 ### 1. Define Policies:
 
-Start by defining policies in a code repository using your chosen PaC tool.
+- Start by defining policies in a code repository using your chosen PaC tool.
 
 ### 2. Integrate with CI/CD Pipelines:
 
-Incorporate policy checks into CI/CD pipelines to enforce policies during the development and deployment phases.
+- In corporate policy checks into CI/CD pipelines to enforce policies during the development and deployment phases.
 
 ### 3. Continuous Monitoring:
 
-Use monitoring tools to continuously evaluate the environment for policy compliance and trigger alerts or remediation actions when violations are detected.
+- Use monitoring tools to continuously evaluate the environment for policy compliance and trigger alerts or remediation actions when violations are detected.
 
 ### 4. Iterate and Improve:
 
-Continuously refine and update policies based on feedback, changes in regulatory requirements, and evolving organizational needs.
+- Continuously refine and update policies based on feedback, changes in regulatory requirements, and evolving organizational needs.
+
 By adopting Policy as Code, organizations can improve their governance, enhance security, and ensure consistent policy enforcement across their IT infrastructure.

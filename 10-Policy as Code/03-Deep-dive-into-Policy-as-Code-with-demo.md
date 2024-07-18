@@ -73,7 +73,7 @@ Installing 'amazon.aws:2.3.0' to '/home/ubuntu/.ansible/collections/ansible_coll
 Downloading https://galaxy.ansible.com/download/amazon-aws-2.3.0.tar.gz to /home/ubuntu/.ansible/tmp/ansible-local-12345_abcdef/_ivj5y0f/amazon-aws-2.3.0-z6lcvmpv
 amazon.aws:2.3.0 was installed successfully
 ```
-## Now run the ansible playbook that contains Policy as Code to manage the versioning of an AWS S3 bucket.
+## 5. Now run the ansible playbook that contains Policy as Code to manage the versioning of an AWS S3 bucket.
 
 ```
 ubuntu@balasenapathi:~$ ansible-playbook 10-Policy as Code/s3_versioning.yaml

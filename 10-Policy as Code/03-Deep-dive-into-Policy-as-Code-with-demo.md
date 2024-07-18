@@ -8,20 +8,20 @@
 
 ## 2.To configure AWS on Ansible Control machine i.e our ubuntu server where ansible is running.
 
-### To run Ansible playbooks that manage AWS resources, including S3 buckets, the server running the playbooks needs AWS access. This can be achieved in different ways:
+### To run Ansible playbooks that manage AWS resources, including S3 buckets, the server running the playbooks needs AWS access. This can be achieved in different ways.
 
-### 1. Using an IAM User with Permissions:
+### 1. Using an IAM User with Permissions.
 
 - Create an IAM user and grant it the necessary permissions to access the S3 bucket.
 - Generate access keys (Access Key ID and Secret Access Key) for the IAM user.
 - Use these access keys in your Ansible playbooks to authenticate and manage the S3 bucket.
 
-### Using Root User Access Keys:
+### Using Root User Access Keys.
 
 - Although it is possible to use the root user’s access keys to connect to AWS resources, it is not recommended due to security risks.
 - Best practices dictate using IAM users or roles with the least privileges necessary for the tasks at hand.
 
-### Connect to the AWS from server where we are running ansible playbook
+### Connect to the AWS from server where we are running ansible playbook.
 
 ```
 ubuntu@balasenapathi:~$ aws configure
@@ -31,7 +31,7 @@ Default region name [None]: your_default_region
 Default output format [None]: json 
 ```
 
-### To list the all S3 buckets in our AWS account
+### To list the all S3 buckets in our AWS account.
 
 ````
 ubuntu@balasenapathi:~$ aws s3 ls 
@@ -42,7 +42,7 @@ ubuntu@balasenapathi:~$ aws s3 ls
 
 - Note: Our s3 bucket versioning is disabled by default.
 
-## 3. Install python3 and boto3 in your ubuntu instance where ansible is running because here ansible with
+## 3. Install python3 and boto3 in your ubuntu instance where ansible is running.
       
 To set up an Ubuntu instance for running Ansible playbooks that interact with AWS S3 buckets, you need
 to install Python3 and Boto3. Boto3 is the AWS SDK for Python, which allows Ansible to make API calls 

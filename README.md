@@ -1,5 +1,5 @@
 # Ansible For DevOps:
-Ansible for DevOps is a comprehensive guide to mastering automation with Ansible,tailored for DevOps professionals. It 
+Ansible for DevOps is a comprehensive guide to mastering automation with Ansible, tailored for DevOps professionals. It 
 starts with an introduction to Ansible, its advantages over traditional scripting, and installation across platforms. 
 You’ll learn how to run powerful Adhoc commands for quick system management and write your first playbook to automate 
 tasks like deploying web servers.

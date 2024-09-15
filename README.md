@@ -80,8 +80,6 @@ DevOps environments.
 ## 13: Advanced Ansible Project
 - Terraform + Ansible Project
 
-## 14: Ansible Interview Questions
-
 ## 👥 Who Is This For?
 
 > [!IMPORTANT]

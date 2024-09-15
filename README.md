@@ -82,6 +82,30 @@ DevOps environments.
 
 ## 14: Ansible Interview Questions
 
+## 👥 Who Is This For?
+
+> [!IMPORTANT]
+> This collection is perfect for:
+>
+> - **DevOps Engineers**: Get quick access to the tools you use every day.
+> - **Sysadmins**: Simplify operations with easy-to-follow guides.
+> - **Developers**: Understand the infrastructure behind your applications.
+> - **DevOps Newcomers**: Learn the basics and avoid common pitfalls with our beginner-friendly cheatsheets.
+
+## 🛠️ How to Use This Repository
+
+> [!NOTE]
+> 1. **Explore the Categories**: Navigate through the folders to find the tool or technology you’re interested in.
+> 2. **Use the Repositories**: Each repository is designed to provide quick access to the most important concepts and projects.
+
+## 🤝 Contributions Welcome!
+
+We believe in the power of community! If you have a tip, command, or configuration that you'd like to share, please contribute to this repository. Whether it’s a new tool or an addition to an existing content, your input is valuable.
+
+## 📢 Stay Updated
+
+This repository is constantly evolving with new tools and updates. Make sure to ⭐ star this repo to keep it on your radar!
+
 ## Liking the Project?
 
 # ⭐❤️
@@ -89,6 +113,10 @@ DevOps environments.
 If you find this project helpful, please consider giving it a ⭐! It helps others discover the project and keeps me motivated to improve it.
 
 Thank you for your support!
+---
+## ✍🏼 Author
+
+![Author Image](https://github.com/balusena/ansible-for-devops/blob/main/banner.png)
 
 ---
 Made with ❤️ and passion to contribute to the DevOps community by [Bala Senapathi](https://github.com/balusena)
